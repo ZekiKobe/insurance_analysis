@@ -1,0 +1,7 @@
+prepare:
+  columns_to_drop: ["Unnamed: 0", "Notes"]
+  imputation_strategy: "median"
+  
+train:
+  test_size: 0.2
+  random_state: 42

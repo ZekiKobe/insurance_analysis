@@ -1,0 +1,10 @@
+stages:
+  prepare:
+    cmd: python scripts/prepare.py
+    deps:
+      - data/MachineLearningRating_v3.txt
+    outs:
+      - data/cleaned_data.csv
+    params:
+      - columns_to_drop
+      - imputation_strategy
