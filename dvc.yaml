@@ -4,7 +4,7 @@ stages:
     deps:
       - data/MachineLearningRating_v3.txt
     outs:
-      - data/cleaned_data.csv
+      - data/MachineLearningRating_v3.txt.dvc
     params:
       - columns_to_drop
       - imputation_strategy
